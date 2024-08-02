@@ -1,0 +1,65 @@
+main{
+    display:flex ;
+    width: 100vh;
+    height: 100vh;
+justify-content: center;
+align-items: center;
+
+}
+body{
+    background-color: rgb(178, 178, 176);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(235, 242, 244);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(61, 89, 101);
+}
+.title{
+font-size:21px;
+  font-family:sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(127, 158, 158);
+    text-shadow: 0 1px 3px rgb(137, 174, 178);
+box-shadow: 10px 10px 100px rgb(207, 231, 231);
+}
+.input{
+    color: rgb(127, 158, 158);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgb(137, 174, 178);
+    display: flex;
+    justify-content:space-between;
+    width: 250px;
+    height: 35px;
+    font-size: 19px;
+
+}
+ .input input{
+    outline: none;
+    
+    border-style:solid ;
+border-color: rgb(232, 242, 243);
+box-shadow: 3px 3px 3px rgb(141, 191, 190);
+border-radius: 8px;
+background: rgb(246, 248, 248);
+}
+button {  color: rgb(113, 144, 151);
+    font-family: sans-serif;
+    
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(180, 226, 238);
+    background:rgb(169, 219, 230);
+box-shadow: 3px 3px 3px rgba(124, 162, 171, 0.903) ;
+text-shadow: 0 1px 2px rgb(127, 158, 158) ;
+padding: 5px;
+border-radius: 8px;
+}
